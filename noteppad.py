@@ -9,7 +9,7 @@ from PyQt5.QtPrintSupport import QPrintDialog
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowIcon(QIcon('./New Folder/notepad.ico'))
+        self.setWindowIcon(QIcon('./Icons/notepad.ico'))
         self.screen_width, self.screen_height = self.geometry().width(), self.geometry().height()
         self.resize(self.screen_width, self.screen_height) 
 
